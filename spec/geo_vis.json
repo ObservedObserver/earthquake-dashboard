@@ -1,0 +1,303 @@
+[
+    {
+      "visId": "gw_bBNw",
+      "name": "Chart 1",
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_syxp",
+            "fid": "GW_WWD57NTBK",
+            "name": "Time",
+            "basename": "Time",
+            "semanticType": "temporal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_OEXK",
+            "fid": "GW_66W7DFC3Q5S",
+            "name": "Place",
+            "basename": "Place",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_JnJb",
+            "fid": "GW_1MQIJ2SBOWWHEASW",
+            "name": "Latitude",
+            "basename": "Latitude",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_pWoK",
+            "fid": "GW_BLZAOYDFY3BJKH44W",
+            "name": "Longitude",
+            "basename": "Longitude",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_bOjm",
+            "fid": "GW_8D8UOUN398UE5S",
+            "name": "MagType",
+            "basename": "MagType",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_wocq",
+            "fid": "GW_61TJSHM8",
+            "name": "net",
+            "basename": "net",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_76SS",
+            "fid": "GW_KBUECW",
+            "name": "ID",
+            "basename": "ID",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_tWBq",
+            "fid": "GW_98M97IW3AR3XGW",
+            "name": "Updated",
+            "basename": "Updated",
+            "semanticType": "temporal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_jr8I",
+            "fid": "GW_WX8QJFH2O",
+            "name": "Type",
+            "basename": "Type",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_Cy66",
+            "fid": "GW_1R7FYMX6LNJG0",
+            "name": "status",
+            "basename": "status",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_kjlb",
+            "fid": "GW_6F3TU2TDPKG5A0CIE0TRQ1A28",
+            "name": "locationSource",
+            "basename": "locationSource",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_WSm3",
+            "fid": "GW_GM4ZW18LR3G4IQBLC",
+            "name": "magSource",
+            "basename": "magSource",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_rINg",
+            "fid": "GW_59K7DK8W9BK",
+            "name": "Depth",
+            "basename": "Depth",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_VHap",
+            "fid": "GW_48OEM1IO",
+            "name": "Mag",
+            "basename": "Mag",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_O89X",
+            "fid": "GW_61XFMSZ4",
+            "name": "nst",
+            "basename": "nst",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_eiaQ",
+            "fid": "GW_5NZ7W3ZK",
+            "name": "gap",
+            "basename": "gap",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_ewzY",
+            "fid": "GW_1352QTV1O0",
+            "name": "dmin",
+            "basename": "dmin",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_zTKx",
+            "fid": "GW_69RW420G",
+            "name": "rms",
+            "basename": "rms",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_W78x",
+            "fid": "GW_I881ZO55R06VKXPQFDBK",
+            "name": "Unnamed: 14",
+            "basename": "Unnamed: 14",
+            "analyticType": "measure",
+            "semanticType": "nominal",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_LDVd",
+            "fid": "GW_17YSWWEDTKJ8DCLJ6VDU3YIDGKW",
+            "name": "horizontalError",
+            "basename": "horizontalError",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_PL6g",
+            "fid": "GW_30G2CRQ7PXOC1HJN4TS",
+            "name": "depthError",
+            "basename": "depthError",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_XZsK",
+            "fid": "GW_2C42SNUI4OC5UYI8",
+            "name": "magError",
+            "basename": "magError",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_s2Yl",
+            "fid": "GW_1NVQBHM0BDT0W",
+            "name": "magNst",
+            "basename": "magNst",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          }
+        ],
+        "rows": [],
+        "columns": [],
+        "color": [
+          {
+            "dragId": "gw_O6Ev",
+            "fid": "GW_48OEM1IO",
+            "name": "Mag",
+            "basename": "Mag",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "opacity": [],
+        "size": [
+          {
+            "dragId": "gw_k_Rt",
+            "fid": "GW_48OEM1IO",
+            "name": "Mag",
+            "basename": "Mag",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [
+          {
+            "dragId": "gw_gyGp",
+            "fid": "GW_BLZAOYDFY3BJKH44W",
+            "name": "Longitude",
+            "basename": "Longitude",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "latitude": [
+          {
+            "dragId": "gw_t6aw",
+            "fid": "GW_1MQIJ2SBOWWHEASW",
+            "name": "Latitude",
+            "basename": "Latitude",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "poi"
+        ],
+        "showTableSummary": false,
+        "coordSystem": "geographic",
+        "stack": "stack",
+        "showActions": false,
+        "interactiveScale": false,
+        "sorted": "none",
+        "zeroScale": true,
+        "scaleIncludeUnmatchedChoropleth": false,
+        "size": {
+          "mode": "auto",
+          "width": 800,
+          "height": 600
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        },
+        "limit": -1
+      }
+    }
+  ]
